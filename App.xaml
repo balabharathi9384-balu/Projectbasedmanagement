@@ -1,0 +1,37 @@
+﻿<Application x:Class="multilanguage.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:multilanguage"
+             StartupUri="MainWindow.xaml">
+    <!--<Application.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontWeight" Value="DemiBold"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="FontWeight" Value="UltraBold"></Setter>
+            <Setter Property="Foreground" Value="DarkBlue"></Setter>
+            <Setter Property="Background" Value="SkyBlue"></Setter>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+
+        </Style>
+        <Style TargetType="Button" x:Key="buttongreen">
+            <Setter Property="FontWeight" Value="UltraBold"></Setter>
+            <Setter Property="Foreground" Value="Blue"></Setter>
+            <Setter Property="Background" Value="Green"></Setter>
+            <Setter Property="BorderThickness" Value="3"></Setter>
+
+        </Style>
+
+    </Application.Resources>-->
+    <Application.Resources>
+        <Style TargetType="Button" x:Key="linkbutton">
+            <Setter Property="Background" Value="#204C88"></Setter>
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="BorderThickness" Value="0"></Setter>
+            
+            
+        </Style>
+    </Application.Resources>
+</Application>
+
